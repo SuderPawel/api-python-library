@@ -11,26 +11,26 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='python_project_skeleton',
+    name='api_python_project_skeleton',
     packages=[
-        'python_project_skeleton',
-        'python_project_skeleton.tools',
-        'python_project_skeleton.tests'
+        'api_python_project_skeleton',
+        'api_python_project_skeleton.tools',
+        'api_python_project_skeleton.tests'
     ],
     package_dir={
-        'python_project_skeleton': 'src/python_project_skeleton',
-        'python_project_skeleton.tools': 'src/python_project_skeleton/tools',
-        'python_project_skeleton.tests': 'src/python_project_skeleton/tests'
+        'api_python_project_skeleton': 'src/api_python_project_skeleton',
+        'api_python_project_skeleton.tools': 'src/api_python_project_skeleton/tools',
+        'api_python_project_skeleton.tests': 'src/api_python_project_skeleton/tests'
     },
     package_data={'': [
-        'src/python_project_skeleton/main.ini'
+        'src/api_python_project_skeleton/main.ini'
     ]},
     data_files=[
         ('', [
-            'src/python_project_skeleton/main.ini'
+            'src/api_python_project_skeleton/main.ini'
         ]),
     ],
-    test_suite="python_project_skeleton.tests",
+    test_suite="api_python_project_skeleton.tests",
     include_package_data=True,
     install_requires=required,
     version='1.0',

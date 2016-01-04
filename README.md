@@ -1,4 +1,4 @@
-# python-project-skeleton
+# api-python-project-skeleton
 
 ## Requirements
 
@@ -14,11 +14,11 @@
 
 Simply. Add to `requirements.txt`
 
-    -e git+git://github.com/your-name/python-project-skeleton#egg=python-project-skeleton
+    -e git+git://github.com/your-name/api-python-project-skeleton#egg=api-python-project-skeleton
 
 You can install it by python-installer
 
-    pip install -e git+git://github.com/your-name/python-project-skeleton#egg=python-project-skeleton
+    pip install -e git+git://github.com/your-name/api-python-project-skeleton#egg=api-python-project-skeleton
 
 ## How to contribute
 
