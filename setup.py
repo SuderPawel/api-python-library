@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='api_python_project_skeleton',
+    name='api-python-project-skeleton',
     packages=[
         'api_python_project_skeleton',
         'api_python_project_skeleton.tools',
@@ -23,22 +23,24 @@ setup(
         'api_python_project_skeleton.tests': 'src/api_python_project_skeleton/tests'
     },
     package_data={'': [
-        'src/api_python_project_skeleton/main.ini'
+        'src/api_python_project_skeleton/main.ini',
+        'src/api_python_project_skeleton/api.ini'
     ]},
     data_files=[
         ('', [
-            'src/api_python_project_skeleton/main.ini'
+            'src/api_python_project_skeleton/main.ini',
+            'src/api_python_project_skeleton/api.ini'
         ]),
     ],
     test_suite="api_python_project_skeleton.tests",
     include_package_data=True,
     install_requires=required,
     version='1.0',
-    description='python project skeleton',
+    description='API python project skeleton',
     author=u'Paweł Suder',
     author_email='pawel@suder.info',
-    url='http://github.com/paoolo/python-project-skeleton',
-    download_url='http://github.com/paoolo/python-project-skeleton',
+    url='https://github.com/your-name/api-python-project-skeleton',
+    download_url='https://github.com/your-name/api-python-project-skeleton',
     keywords=[
         'skeleton'
     ],
