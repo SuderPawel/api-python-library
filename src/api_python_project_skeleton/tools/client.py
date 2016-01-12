@@ -6,7 +6,7 @@ import sys
 import re
 
 
-def _connect(host, url, method, body, headers, https=False):
+def __connect(host, url, method, body, headers, https=False):
     connection = None
     response = None
 
@@ -59,4 +59,4 @@ def populate_url_with_arguments(url, arguments):
 
 def create_request(host, url, method='GET', body=None, headers=None, https=False):
     _headers = {} if headers is None else headers
-    return _connect(host, url, method, body, _headers, https)
+    return __connect(host, url, method, body, _headers, https)
