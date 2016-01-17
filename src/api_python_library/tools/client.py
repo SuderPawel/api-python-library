@@ -16,9 +16,8 @@ def __connect(host, url, method, body, headers, https=False):
         else:
             connection = httplib.HTTPConnection(host)
 
-        host = ('https://%s' % host) if https else ('http://%s' % host)
-        sys.stderr.write('%s, %s, %s, %s\n' % (method, host + url, body, headers))
-        connection.request(method, host + url, body, headers)
+        sys.stderr.write('%s, %s, %s, %s, %s\n' % (method, host, url, body, headers))
+        connection.request(method, url, body, headers)
 
         response = connection.getresponse()
         if not 100 <= response.status < 300:
@@ -53,7 +52,7 @@ def check_and_set_header(headers, key, value):
 
 def populate_url_with_arguments(url, arguments):
     for key, value in arguments.items():
-        url = re.sub(r"\$\{%s\}" % key, value, url)
+        url = re.sub(r"\$\{%s\}" % key, str(value), url)
     return url
 
 

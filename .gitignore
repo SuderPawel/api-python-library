@@ -11,5 +11,6 @@ build/
 dist/
 out/
 *.egg-info/
+.eggs/
 
 __envi/

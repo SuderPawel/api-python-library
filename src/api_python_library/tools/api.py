@@ -39,7 +39,7 @@ class API(object):
             _headers = self.__get_headers(name)
 
             def inner(host, arguments=None, body=None, headers=None, https=False):
-                from api_python_project_skeleton.tools import client
+                from api_python_library.tools import client
 
                 headers = {} if headers is None else headers
                 client.check_and_set_headers(_headers, headers)

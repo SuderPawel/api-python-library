@@ -3,7 +3,7 @@ import unittest
 
 import mock
 
-from api_python_project_skeleton.tools import api
+from api_python_library.tools import api
 
 
 class ApiTestCase(unittest.TestCase):
@@ -11,7 +11,7 @@ class ApiTestCase(unittest.TestCase):
         self.host, self.arguments = mock.Mock(), mock.Mock()
         self.body, self.headers = mock.Mock(), mock.Mock()
         self.client_mock = mock.Mock()
-        sys.modules['api_python_project_skeleton.tools'] = self.client_mock
+        sys.modules['api_python_library.tools'] = self.client_mock
 
     def tearDown(self):
         pass

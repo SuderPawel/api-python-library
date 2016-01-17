@@ -5,6 +5,6 @@ install:
   - pip install -r requirements.txt
   - pip install coveralls
 script:
-  - PYTHONPATH=src coverage run --source=api_python_project_skeleton setup.py test
+  - PYTHONPATH=src coverage run --source=api_python_library setup.py test
 after_success:
   - coveralls
