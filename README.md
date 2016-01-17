@@ -1,13 +1,13 @@
-# api-python-project-skeleton
+# api-python-library
 
-[![Build Status](https://travis-ci.org/SuderPawel/api-python-project-skeleton.svg?branch=master)](https://travis-ci.org/SuderPawel/api-python-project-skeleton)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/1a5bc2d75a1b4f5187f35d2c92fa8087)](https://www.codacy.com/app/SuderPawel/api-python-project-skeleton)
-[![Code Health](https://landscape.io/github/SuderPawel/api-python-project-skeleton/master/landscape.svg?style=flat)](https://landscape.io/github/SuderPawel/api-python-project-skeleton/master)
-[![Coverage Status](https://coveralls.io/repos/SuderPawel/api-python-project-skeleton/badge.svg?branch=master&service=github)](https://coveralls.io/github/SuderPawel/api-python-project-skeleton?branch=master)
+[![Build Status](https://travis-ci.org/SuderPawel/api-python-library.svg?branch=master)](https://travis-ci.org/SuderPawel/api-python-library)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/7a7231cf29a044729497bc721dbf70df)](https://www.codacy.com/app/SuderPawel/api-python-library)
+[![Code Health](https://landscape.io/github/SuderPawel/api-python-library/master/landscape.svg?style=flat)](https://landscape.io/github/SuderPawel/api-python-library/master)
+[![Coverage Status](https://coveralls.io/repos/SuderPawel/api-python-library/badge.svg?branch=master&service=github)](https://coveralls.io/github/SuderPawel/api-python-library?branch=master)
 
-[![Code Climate](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton/badges/gpa.svg)](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton)
-[![Test Coverage](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton/badges/coverage.svg)](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton/coverage)
-[![Issue Count](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton/badges/issue_count.svg)](https://codeclimate.com/github/SuderPawel/api-python-project-skeleton)
+[![Code Climate](https://codeclimate.com/github/SuderPawel/api-python-library/badges/gpa.svg)](https://codeclimate.com/github/SuderPawel/api-python-library)
+[![Test Coverage](https://codeclimate.com/github/SuderPawel/api-python-library/badges/coverage.svg)](https://codeclimate.com/github/SuderPawel/api-python-library/coverage)
+[![Issue Count](https://codeclimate.com/github/SuderPawel/api-python-library/badges/issue_count.svg)](https://codeclimate.com/github/SuderPawel/api-python-library)
 
 ## Requirements
 
@@ -23,11 +23,11 @@
 
 Simply. Add to `requirements.txt`
 
-    -e git+git://github.com/your-name/api-python-project-skeleton#egg=api-python-project-skeleton
+    -e git+git://github.com/your-name/api-python-library#egg=api-python-library
 
 You can install it by python-installer
 
-    pip install -e git+git://github.com/your-name/api-python-project-skeleton#egg=api-python-project-skeleton
+    pip install -e git+git://github.com/your-name/api-python-library#egg=api-python-library
 
 ## How to contribute
 
