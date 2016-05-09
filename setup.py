@@ -15,21 +15,23 @@ setup(
     packages=[
         'api_python_library',
         'api_python_library.tools',
-        'api_python_library.tests'
+        'api_python_library.tests',
+        'api_python_library.examples'
     ],
     package_dir={
         'api_python_library': 'src/api_python_library',
         'api_python_library.tools': 'src/api_python_library/tools',
-        'api_python_library.tests': 'src/api_python_library/tests'
+        'api_python_library.tests': 'src/api_python_library/tests',
+        'api_python_library.examples': 'src/api_python_library/examples',
     },
     package_data={'': [
-        'src/api_python_library/main.ini',
-        'src/api_python_library/api.ini'
+        'src/api_python_library/examples/main.ini',
+        'src/api_python_library/examples/api.ini'
     ]},
     data_files=[
         ('', [
-            'src/api_python_library/main.ini',
-            'src/api_python_library/api.ini'
+            'src/api_python_library/examples/main.ini',
+            'src/api_python_library/examples/api.ini'
         ]),
     ],
     test_suite="api_python_library.tests",
