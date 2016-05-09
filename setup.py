@@ -11,7 +11,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
-    name='api-python-project-skeleton',
+    name='api-python-library',
     packages=[
         'api_python_library',
         'api_python_library.tools',
@@ -39,8 +39,8 @@ setup(
     description='API python project skeleton',
     author=u'Paweł Suder',
     author_email='pawel@suder.info',
-    url='https://github.com/your-name/api-python-project-skeleton',
-    download_url='https://github.com/your-name/api-python-project-skeleton',
+    url='https://github.com/SuderPawel/api-python-library',
+    download_url='https://github.com/SuderPawel/api-python-library',
     keywords=[
         'skeleton'
     ],
