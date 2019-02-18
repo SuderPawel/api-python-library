@@ -1,13 +1,13 @@
 # api-python-library
 
-[![Build Status](https://travis-ci.org/SuderPawel/api-python-library.svg?branch=master)](https://travis-ci.org/SuderPawel/api-python-library)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/7a7231cf29a044729497bc721dbf70df)](https://www.codacy.com/app/SuderPawel/api-python-library)
-[![Code Health](https://landscape.io/github/SuderPawel/api-python-library/master/landscape.svg?style=flat)](https://landscape.io/github/SuderPawel/api-python-library/master)
-[![Coverage Status](https://coveralls.io/repos/SuderPawel/api-python-library/badge.svg?branch=master&service=github)](https://coveralls.io/github/SuderPawel/api-python-library?branch=master)
+[![Build Status](https://travis-ci.org/pasuder/api-python-library.svg?branch=master)](https://travis-ci.org/pasuder/api-python-library)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/7a7231cf29a044729497bc721dbf70df)](https://www.codacy.com/app/pasuder/api-python-library)
+[![Code Health](https://landscape.io/github/pasuder/api-python-library/master/landscape.svg?style=flat)](https://landscape.io/github/pasuder/api-python-library/master)
+[![Coverage Status](https://coveralls.io/repos/pasuder/api-python-library/badge.svg?branch=master&service=github)](https://coveralls.io/github/pasuder/api-python-library?branch=master)
 
-[![Code Climate](https://codeclimate.com/github/SuderPawel/api-python-library/badges/gpa.svg)](https://codeclimate.com/github/SuderPawel/api-python-library)
-[![Test Coverage](https://codeclimate.com/github/SuderPawel/api-python-library/badges/coverage.svg)](https://codeclimate.com/github/SuderPawel/api-python-library/coverage)
-[![Issue Count](https://codeclimate.com/github/SuderPawel/api-python-library/badges/issue_count.svg)](https://codeclimate.com/github/SuderPawel/api-python-library)
+[![Code Climate](https://codeclimate.com/github/pasuder/api-python-library/badges/gpa.svg)](https://codeclimate.com/github/pasuder/api-python-library)
+[![Test Coverage](https://codeclimate.com/github/pasuder/api-python-library/badges/coverage.svg)](https://codeclimate.com/github/pasuder/api-python-library/coverage)
+[![Issue Count](https://codeclimate.com/github/pasuder/api-python-library/badges/issue_count.svg)](https://codeclimate.com/github/pasuder/api-python-library)
 
 ## Requirements
 
